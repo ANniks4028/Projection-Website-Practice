@@ -349,7 +349,7 @@ body{
 
 @media only screen and (max-width: 840px){
     .fp .container .name{
-        width: 100%;
+        width: 82%;
         font-size: 13px;
     }
 
@@ -358,7 +358,7 @@ body{
     }
 
     .fp .container .email{
-        width: 100%;
+        width: 82%;
         margin-top: 15px;
         font-size: 13px;
     }
@@ -373,7 +373,7 @@ body{
     }
 
     .fp .container form textarea{
-        width: 92%;
+        width: 77%;
     }
 
     .x-btn{
