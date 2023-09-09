@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner part start here */
+.banner{
+    width: 100%;
+    background:linear-gradient(#5c5c6b,rgba(110, 93, 93, 0.329)), url(../img/banner.jpg);
+    height: 580px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner .container .hr p{
+    float: left;    
+    padding-top: 15px;
+}
+
+.banner .container nav ul{
+    float: right;
+}
+
+.banner .container nav ul li{
+    float: left;
+    margin-left: 15px;
+    font-size: 5px;
+    list-style: none;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.banner .container hr{
+    clear: both;
+    padding-top: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.banner .container h2{
+    text-align: center;
+    padding-top: 55px;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 92px;
+}
+
+.banner .container span{
+    font-size: 26px;
+    color: #6cc091;
+}
+
+.banner .container .car , .camera , .services p{
+    font-weight: 200;
+}
+
+.banner .container .car h3{
+    font-weight: 400;
+}
+
+.banner .container .camera h3{
+    font-weight: 400;
+}
+
+.banner .container .services h3{
+    font-weight: 400;
+}
+
+.banner .container .car{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    line-height: 24px;
+}
+
+.banner .container .camera{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    line-height: 24px;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+
+.banner .container .services{
+    float: right;
+    width: 33%;
+    text-align: center;
+    line-height: 24px;
+}
+
+.m-btn{
+    border: 2px solid #6cc091;
+    margin-top: 120px;
+    width: 153px;
+    height: 30px;
+    background-color: inherit;
+    color: #6cc091;
+    font-size: 9px;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner part end here */
+
+
+/* images part start here */
+
+.ip{
+    color: black;
+}
+
+.ip .container .mobile{
+    margin-top: 80px;
+    float: left;
+    width: 48%;
+    margin-bottom: 80px;
+}
+
+.ip .container .mobile img{
+    border-radius: 100%;
+}
+
+.ip .container .mobile h4{
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.ip .container .mobile p{
+    line-height: 28px;
+    color: grey;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.ip .container .camera1{
+    margin-top: 80px;
+    float: right;
+    width: 50%;
+}
+
+.ip .container .camera1 img{
+    border-radius: 100%;
+}
+
+.ip .container .camera1 h4{
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.ip .container .camera1 p{
+    line-height: 28px;
+    color: grey;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.m-btn1{
+    border: 3px solid #6cc091;
+    width: 153px;
+    height: 34px;
+    background-color: inherit;
+    color: #6cc091;
+    font-size: 9px;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
+}
+
+/* images part end here */
+
+/* form part start here */
+
+.fp{
+    clear: both;
+    background-color: #6cc091;
+    padding-top: 55px;
+    color: #fff;
+}
+
+.fp .container .name{
+    float: left;
+    width: 50%;
+    text-align: justify;
+}
+
+.fp .container .name input{
+    width: 93%;
+    border: none;
+    border: 1px solid #dbdbdb;
+    background-color: #6cc091;
+    height: 30px;
+    padding-left: 17px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 13px;
+}
+
+.fp .container .email{
+    float: left;
+    width: 45%;
+    text-align: justify;
+}
+
+.fp .container .email input{
+    width: 93%;
+    border: none;
+    border: 1px solid #dbdbdb;
+    background-color: #6cc091;
+    height: 30px;
+    padding-left: 17px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 13px;
+}
+
+.fp .container form textarea{
+    margin-right: 180px;
+    width: 87%;
+    height: 115px;
+    border-radius: 5px;
+    background-color: #6cc091;
+    border: 1px solid #dbdbdb;
+    padding-left: 17px;
+    padding-top: 12px;
+    color: grey;
+    font-size: 14px;
+    margin-top: -10px;
+    width: 92%;
+}
+
+.fp .container form p{
+    text-align: justify;
+}
+
+.fp .container h3{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 55px;
+}
+
+.x-btn{
+    border: 3px solid #dbdbdb;
+    width: 153px;
+    height: 34px;
+    background-color: inherit;
+    color: #fff;
+    font-size: 9px;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.fp .container .footer{
+    padding-bottom: 70px;
+}
+
+/* form part end here */
+
+/* responsive part start here */
+
+@media only screen and (max-width: 1540px){
+    #cheack{
+        display: none;
+    }
+
+    .cheackbtn{
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right: 15px;
+        margin-top: -15px;
+        cursor: pointer;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1230px){
+    .fp .container form textarea{
+        margin-right: 60px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .banner .container .hr .car span{
+        font-size: 22px;
+    }
+
+    .banner .container .car h3{
+        font-size: 15px;
+    }
+
+    .banner .container .car p{
+        font-size: 13px;
+    }
+
+    .banner .container .camera h3{
+        font-size: 15px;
+    }
+
+    .banner .container .camera p{
+        font-size: 13px;
+    }
+
+    .banner .container .services h3{
+        font-size: 15px;
+    }
+
+    .banner .container .services p{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 935px){
+    .ip .container .mobile p{
+        font-size: 10px;
+    }
+
+    .ip .container .mobile img{
+        border-radius: 62%;
+    }
+
+    .ip .container .camera1 p{
+        font-size: 10px;
+    }
+
+    ip .container .camera1 img{
+        border-radius: 62%;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .fp .container .name{
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .fp .container .name input{
+        margin-top: 7px;
+    }
+
+    .fp .container .email{
+        width: 100%;
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    .fp .container .email input{
+        margin-top: 7px;
+    }
+
+    .fp .container form p{
+        margin-top: 55px;
+        font-size: 13px;
+    }
+
+    .fp .container form textarea{
+        width: 92%;
+    }
+
+    .x-btn{
+        margin-top: 25px;
+        margin-bottom: 45px;
+    }
+        
+}
+
+
+@media only screen and (max-width: 740px){
+    .cheackbtn{
+        display: block;
+    }
+
+    .banner .container .hr .navigation ul{
+        position: fixed;
+        width: 100%;
+        height: 75vh;
+        background: #6cc091;
+        top: 80px;
+        right: -100%;
+        width: 125px;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .banner .container .hr .navigation ul li{
+        margin-left: 45px;
+        margin-right: 90px;
+        margin-top: 60px;
+        font-size: 15px;
+        /* display: block; */
+    }
+
+    #cheack:checked ~ ul{
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .banner .container hr{
+        padding-top: 0px;
+    }
+
+    .banner .container .car h3{
+        font-size: 13px;
+    }
+
+    .banner .container .car p{
+        font-size: 10px;
+    }
+
+    .banner .container .camera{
+        border: 0px;
+    }
+
+    .banner .container .camera h3{
+        font-size: 13px;
+    }
+
+    .banner .container .camera p{
+        font-size: 10px;
+    }
+
+    .banner .container .services h3{
+        font-size: 13px;
+    }
+
+    .banner .container .services p{
+        font-size: 10px;
+    }
+
+    .m-btn{
+        margin-top: 85px;
+    }
+
+    .ip .container .mobile {
+        width: 100%;
+    }
+
+    .ip .container .camera1{
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .m-btn1{
+        margin-bottom: 50px;
+    }
+}
